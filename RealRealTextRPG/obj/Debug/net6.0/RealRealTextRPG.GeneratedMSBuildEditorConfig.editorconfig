@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RealRealTextRPG
-build_property.ProjectDir = D:\zzondy\assignment\Personal\TextRPG\RealRealTextRPG\RealRealTextRPG\
+build_property.ProjectDir = D:\zzondy\Git\TextRPG\RealRealTextRPG\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

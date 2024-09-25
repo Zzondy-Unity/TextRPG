@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\zzondy\\assignment\\Personal\\TextRPG\\RealRealTextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj": {}
+    "D:\\zzondy\\Git\\TextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj": {}
   },
   "projects": {
-    "D:\\zzondy\\assignment\\Personal\\TextRPG\\RealRealTextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj": {
+    "D:\\zzondy\\Git\\TextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\zzondy\\assignment\\Personal\\TextRPG\\RealRealTextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj",
+        "projectUniqueName": "D:\\zzondy\\Git\\TextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj",
         "projectName": "RealRealTextRPG",
-        "projectPath": "D:\\zzondy\\assignment\\Personal\\TextRPG\\RealRealTextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj",
+        "projectPath": "D:\\zzondy\\Git\\TextRPG\\RealRealTextRPG\\RealRealTextRPG.csproj",
         "packagesPath": "C:\\Users\\zzondy\\.nuget\\packages\\",
-        "outputPath": "D:\\zzondy\\assignment\\Personal\\TextRPG\\RealRealTextRPG\\RealRealTextRPG\\obj\\",
+        "outputPath": "D:\\zzondy\\Git\\TextRPG\\RealRealTextRPG\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zzondy\\AppData\\Roaming\\NuGet\\NuGet.Config",
