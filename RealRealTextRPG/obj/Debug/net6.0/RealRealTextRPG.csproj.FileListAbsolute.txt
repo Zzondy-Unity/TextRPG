@@ -1,0 +1,14 @@
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\bin\Debug\net6.0\RealRealTextRPG.exe
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\bin\Debug\net6.0\RealRealTextRPG.deps.json
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\bin\Debug\net6.0\RealRealTextRPG.runtimeconfig.json
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\bin\Debug\net6.0\RealRealTextRPG.dll
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\bin\Debug\net6.0\RealRealTextRPG.pdb
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\RealRealTextRPG.GeneratedMSBuildEditorConfig.editorconfig
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\RealRealTextRPG.AssemblyInfoInputs.cache
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\RealRealTextRPG.AssemblyInfo.cs
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\RealRealTextRPG.csproj.CoreCompileInputs.cache
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\RealRealTextRPG.dll
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\refint\RealRealTextRPG.dll
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\RealRealTextRPG.pdb
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\RealRealTextRPG.genruntimeconfig.cache
+D:\zzondy\과제\개인과제\TextRPG\RealRealTextRPG\RealRealTextRPG\obj\Debug\net6.0\ref\RealRealTextRPG.dll
