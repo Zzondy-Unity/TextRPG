@@ -292,20 +292,7 @@ namespace RealRealTextRPG
                     Console.WriteLine($"{amount}의 골드를 사용하였습니다. \n남은골드 : {gold}");
                 }
             }
-            public void GetGold(int amount)
-            {
-                if (amount > 0)
-                {
-                    gold += amount;
-                    Console.WriteLine($"{amount}의 골드를 획득하였습니다. \n남은골드 : {gold}");
-                }
-                else if (amount < 0)
-                {
-                    Console.WriteLine($"{amount}의 골드를 사용하였습니다. \n남은골드 : {gold}");
-                }
-
-            }
-
+         
             public void StatusCheck(Player player)
             {
                 Console.WriteLine("당신의 현재 상태입니다");
@@ -533,6 +520,7 @@ namespace RealRealTextRPG
                         items = new StrengthPotion();
                         items.Use(player, Items.힘포션, 1);
                         Console.WriteLine("힘포션 을 사용하여 공격력 10 증가합니다.");
+                        Thread.Sleep(1000);
                         break;
                     }
                     else if (input == "2" || input == "체력 포션" || input == "체력포션")
@@ -540,6 +528,11 @@ namespace RealRealTextRPG
                         items = new HealthPotion();
                         items.Use(player, Items.체력포션, 1);
                         Console.WriteLine("체력포션을 사용하여 HP가 50 증가합니다.");
+                        Thread.Sleep(1000);
+                        break;
+                    }
+                    else
+                    {
                         break;
                     }
                 }
@@ -569,7 +562,8 @@ namespace RealRealTextRPG
                         HealthWorth += store[(int)item].Worth * 2;
 
                         Console.WriteLine($"아이템을 장착하여 건강이 {store[(int)item].Worth} 증가하였습니다.");
-                        
+                        Thread.Sleep(1000);
+
                     }
                     else if ((int)item >= 3 && (int)item < 6)
                     {
@@ -587,10 +581,12 @@ namespace RealRealTextRPG
                         player.AttackPower += store[(int)item].Worth * 3;
                         attackWorth += store[(int)item].Worth * 3;
                         Console.WriteLine($"아이템을 장착하여 공격력이 {store[(int)item].Worth} 증가하였습니다.");
+                        Thread.Sleep(1000);
 
                     }
                 }
                 Console.WriteLine("해당 아이템의 수량이 부족합니다.");
+                Thread.Sleep(500);
             }
 
             public void Equippage(Player player)
@@ -632,7 +628,8 @@ namespace RealRealTextRPG
                 }
                 else
                 {
-                    Console.WriteLine("제대로 입력해 주세요");
+                    Console.Clear();
+                    Console.WriteLine("다시 제대로 입력해 주세요");
                     Thread.Sleep(500);
                 }
 
@@ -671,6 +668,7 @@ namespace RealRealTextRPG
                     }
                     else
                     {
+                        Console.Clear();
                         Console.WriteLine("잘못된 입력입니다.");
                         Thread.Sleep(500);
                     }
@@ -774,7 +772,6 @@ namespace RealRealTextRPG
             public int Attack { get; set; }
             public int currentHP { get; set; }
             public bool IsDead => currentHP <= 0;
-
             public Monster(string name, int health, int attackPower)
             {
                 Name = name;
