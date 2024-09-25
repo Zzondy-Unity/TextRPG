@@ -368,9 +368,9 @@ namespace RealRealTextRPG
                 new Product {Item = Items.무쇠갑옷, Price = 2000, IsSold = false,Worth = 9},
                 new Product {Item = Items.스파르타의_갑옷, Price = 3500, IsSold = false,Worth = 15},
                 new Product {Item = Items.낡은_검, Price = 1000, IsSold = false,Worth = 5},
-                new Product {Item = Items.청동_도끼, Price = 1000, IsSold = false, Worth = 9},
-                new Product {Item = Items.스파르타의_창, Price = 1000, IsSold = false, Worth = 15},
-                new Product {Item = Items.체력포션, Price = 1000, IsSold = false, Worth = 50},
+                new Product {Item = Items.청동_도끼, Price = 2000, IsSold = false, Worth = 9},
+                new Product {Item = Items.스파르타의_창, Price = 3500, IsSold = false, Worth = 15},
+                new Product {Item = Items.체력포션, Price = 500, IsSold = false, Worth = 50},
                 new Product {Item = Items.힘포션, Price = 1000, IsSold = false, Worth = 50}
             };
             public bool[] isHaveItem = new bool[8];
